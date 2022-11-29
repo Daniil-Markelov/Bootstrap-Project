@@ -8,18 +8,16 @@
 		/>
 		<title>Home - Tailored</title>
 		<link rel="icon" type="image/x-icon" href="/assets/img/logo 1.png" />
-		<link
-			rel="stylesheet"
-			href="node_modules/bootstrap/dist/css/bootstrap.min.css"
-		/>
+		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="/Bootstrap-Project/scss/main.scss" />
+		
 		<link
 			rel="stylesheet"
 			href="https://fonts.googleapis.com/css?family=Inter:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap"
 		/>
 	</head>
 
-	<body>
+	<body class="d-flex flex-column min-vh-100 bg-dark">
 		<nav
 			class="navbar navbar-dark navbar-expand-md sticky-top py-3"
 			id="mainNav"
@@ -74,74 +72,42 @@
 				</div>
 			</div>
 		</nav>
-		<header class="bg-dark">
+        <header class="bg-dark">
 			<div class="container pt-4 pt-xl-5">
 				<div class="row pt-5">
 					<div class="col-md-8 col-xl-6 text-center text-md-start mx-auto">
 						<div class="text-center">
-							<p class="fw-bold text-success mb-2">Voted #3 In Ireland</p>
+							
 							<h1 class="fw-bold">
-								The only food delievery service that tailored to your'e dietary
-								needs
+								Log In To Your Account
 							</h1>
+                            
 						</div>
+                        <form>
+                            <div class="form-group mt-5 pt-5">
+                              <label for="exampleInputEmail1">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                            <div class="form-group form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </form>
 					</div>
-					<div class="col-12 col-lg-10 mx-auto">
-						<div
-							class="position-relative"
-							style="display: flex; flex-wrap: wrap; justify-content: flex-end"
-						>
-							<div
-								style="
-									position: relative;
-									flex: 0 0 45%;
-									transform: translate3d(-15%, 35%, 0);
-								"
-							>
-								<img
-									class="img-fluid"
-									src="assets/img/products/salmon-main.jpg"
-								/>
-							</div>
-							<div
-								style="
-									position: relative;
-									flex: 0 0 45%;
-									transform: translate3d(-5%, 20%, 0);
-								"
-							>
-								<img
-									class="img-fluid"
-									src="assets/img/products/pancakes%20main.jpg"
-								/>
-							</div>
-							<div
-								style="
-									position: relative;
-									flex: 0 0 60%;
-									transform: translate3d(0, 0%, 0);
-								"
-							>
-								<img
-									class="img-fluid"
-									src="assets/img/products/steakw-main.jpg"
-									style="transform: translate(-60px)"
-								/>
-							</div>
+                    </header>
 						</div>
 					</div>
 				</div>
 			</div>
 		</header>
-		<section class="py-5">
-			<div class="container text-center py-5">
-				<p class="mb-4" style="font-size: 1.6rem">
-					Used by <span class="text-success"><strong>10000+</strong></span
-					>&nbsp;customers worldwide to provide tailored food delivery
-				</p>
-			</div>
-		</section>
-		<footer class="bg-dark">
+		
+		<footer class="bg-dark mt-auto">
 			<div class="container py-4 py-lg-5">
 				<hr />
 				<div
@@ -151,7 +117,7 @@
 				</div>
 			</div>
 		</footer>
-		<script src="node_modules/bootstrap/js/dist/bold-and-dark.js"></script>
 		<script src="node_modules/bootstrap/js/bootstrap.min.js"></script>
+		<script src="node_modules/bootstrap/js/dist/bold-and-dark.js"></script>
 	</body>
 </html>

@@ -6,15 +6,11 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
 		/>
-		<title>Home - Tailored</title>
-		<link rel="icon" type="image/x-icon" href="/assets/img/logo 1.png" />
-		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="/Bootstrap-Project/scss/main.scss" />
-		
-		<link
-			rel="stylesheet"
-			href="https://fonts.googleapis.com/css?family=Inter:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap"
-		/>
+		<title>Log-in - Tailored</title>
+		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="assets/css/Inter.css" />
+		<link rel="stylesheet" href="assets/css/Login-Form-Basic-icons.css" />
+		<link rel="stylesheet" href="assets/css/untitled.compiled.css" />
 	</head>
 
 	<body class="d-flex flex-column min-vh-100 bg-dark">
@@ -56,13 +52,7 @@
 							<a class="nav-link" href="#">About us</a>
 						</li>
 					</ul>
-					<a
-						class="btn btn-primary shadow"
-						role="button"
-						href="login.html"
-						style="margin-left: 0px; background: rgb(45, 44, 56)"
-						>Log In</a
-					><a
+<a
 						class="btn btn-primary shadow"
 						role="button"
 						href="signup.html"
@@ -72,40 +62,70 @@
 				</div>
 			</div>
 		</nav>
-        <header class="bg-dark">
-			<div class="container pt-4 pt-xl-5">
-				<div class="row pt-5">
-					<div class="col-md-8 col-xl-6 text-center text-md-start mx-auto">
-						<div class="text-center">
-							
-							<h1 class="fw-bold">
-								Log In To Your Account
-							</h1>
-                            
+        <header class="bg-dark"></header>
+		<section class="py-5">
+			<section class="position-relative py-4 py-xl-5">
+				<div class="container">
+					<div class="row mb-5">
+						<div class="col-md-8 col-xl-6 text-center mx-auto">
+							<h2 style="font-weight: bold">Log In</h2>
+							<p class="w-lg-50">
+								To continue your venture into tailored nutrition please log in
+								or sign up.
+							</p>
 						</div>
-                        <form>
-                            <div class="form-group mt-5 pt-5">
-                              <label for="exampleInputEmail1">Email address</label>
-                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                            </div>
-                            <div class="form-group">
-                              <label for="exampleInputPassword1">Password</label>
-                              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                            </div>
-                            <div class="form-group form-check">
-                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                              <label class="form-check-label" for="exampleCheck1">Remember Me</label>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                          </form>
 					</div>
-                    </header>
+					<div class="row d-flex justify-content-center">
+						<div class="col-md-6 col-xl-4">
+							<div class="card mb-5">
+								<div class="card-body d-flex flex-column align-items-center">
+									<div
+										class="bs-icon-xl bs-icon-circle bs-icon-primary bs-icon my-4"
+									>
+										<img src="assets/img/logo%201.png" width="35" height="35" />
+									</div>
+									<form class="text-center" method="post">
+										<div class="mb-3">
+											<input
+												class="form-control"
+												type="email"
+												name="email"
+												placeholder="Email"
+											/>
+										</div>
+										<div class="mb-3">
+											<input
+												class="form-control"
+												type="password"
+												name="password"
+												placeholder="Password"
+											/>
+										</div>
+										<div class="mb-3">
+											<a
+												class="btn btn-primary d-block w-100"
+												role="button"
+												href="home.html"
+												>Login</a
+											>
+										</div>
+										<input
+											type="radio"
+											style="position: relative; text-align: left"
+										/><small style="text-align: left"
+											>&nbsp;Remember Me&nbsp;</small
+										>
+										<p class="text-muted" href="signup.html">
+											Don't have an account? Register now
+										</p>
+									</form>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</header>
+			</section>
+		</section>
 		
 		<footer class="bg-dark mt-auto">
 			<div class="container py-4 py-lg-5">

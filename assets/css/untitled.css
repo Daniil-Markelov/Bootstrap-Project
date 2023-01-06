@@ -28,12 +28,6 @@ h2 {
   color: rgb(255, 255, 255);
 }
 
-.btn {
-}
-
-.add-cart {
-}
-
 .Price {
   margin-right: 24px;
   width: 267px;
@@ -53,15 +47,18 @@ h2 {
   margin-top: 0px;
 }
 
-product-row {
-  padding-top: 20px;
-}
-
-product-row {
-  padding-top: 10px;
-}
-
 .product-row {
   margin-top: 25px;
 }
+
+.gtitle {
+  color: rgb(25,245,170);
+  font-weight: bold;
+}
+
+
+.homespan {
+  text-decoration:  underline;
+}
+
 

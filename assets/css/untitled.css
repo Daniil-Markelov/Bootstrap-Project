@@ -1,0 +1,67 @@
+p {
+  backdrop-filter: opacity(1);
+}
+
+h1 {
+  padding: 1px;
+  font-size: 24.88px;
+}
+
+h2 {
+  padding: 0px;
+  padding-top: 13px;
+}
+
+.Price {
+  padding-right: 0px;
+  margin-bottom: 10px;
+  color: var(--bs-green);
+  padding-left: 0px;
+  margin-left: 6px;
+}
+
+.Description {
+  color: rgb(255, 255, 255);
+}
+
+.Product-title {
+  color: rgb(255, 255, 255);
+}
+
+.btn {
+}
+
+.add-cart {
+}
+
+.Price {
+  margin-right: 24px;
+  width: 267px;
+  height: 34.375px;
+}
+
+.Description {
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.Product-title {
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+product-row {
+  padding-top: 20px;
+}
+
+product-row {
+  padding-top: 10px;
+}
+
+.product-row {
+  margin-top: 25px;
+}
+

@@ -18,6 +18,14 @@ h2 {
   color: var(--bs-green);
   padding-left: 0px;
   margin-left: 6px;
+  height: 34.5px;
+}
+
+.Price2 {
+  margin-right: 2px;
+  text-align: center;
+  padding-left: 0px;
+  color: var(--bs-green);
 }
 
 .Description {
@@ -26,12 +34,6 @@ h2 {
 
 .Product-title {
   color: rgb(255, 255, 255);
-}
-
-.Price {
-  margin-right: 24px;
-  width: 267px;
-  height: 34.375px;
 }
 
 .Description {
@@ -59,6 +61,53 @@ h2 {
 
 .homespan {
   text-decoration:  underline;
+}
+
+.payment_text {
+  padding: 28px;
+}
+
+.subtext {
+  padding: 28px;
+}
+
+.Price2 {
+  margin-right: 2px;
+  text-align: center;
+  padding-left: 0px;
+  color: var(--bs-green);
+}
+
+.voted {
+  color: rgb(25, 245, 170);
+}
+
+.bottompic {
+  position: relative;
+  flex: 0 0 60%;
+  transform: translate3d(0, 0%, 0);
+}
+
+.leftpic {
+  position: relative;
+  flex: 0 0 45%;
+  transform: translate3d(-15%, 35%, 0);
+}
+
+.rightpic {
+  position: relative;
+  flex: 0 0 45%;
+  transform: translate3d(-5%, 20%, 0);
+}
+
+.collage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.used_by_x {
+  font-size: 1.6rem;
 }
 
 
